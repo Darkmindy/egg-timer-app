@@ -1,0 +1,49 @@
+/* Page background */
+.done-container {
+    background-color: #ffefd5; /* Soft, light peach background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  /* Title */
+  .done-title {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 2rem;
+    color: #4e4e4e;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Text */
+  .done-text {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #4e4e4e;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  /* Button */
+  .done-button {
+    background-color: #ffac81;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .done-button:hover {
+    background-color: #ff7043;
+    transform: scale(1.05);
+  }
+  
+  .done-button:focus {
+    outline: none;
+  }
+  

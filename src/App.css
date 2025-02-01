@@ -1,0 +1,24 @@
+/* colors */
+
+:root {
+  --orange: #F07E5F;
+  --white: #FFFFFF;
+  --brown: #67452D;
+  --lightorange: #F59561;
+  --borderyellow: #F9DB00;
+  --backgroundyellow: #FFEA79;
+
+
+
+} 
+
+/* text style */
+h1 {
+  color: var(--brown, #67452D);
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
