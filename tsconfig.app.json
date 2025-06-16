@@ -1,6 +1,8 @@
+// tsconfig.app.json
 {
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tsconfig.tsbuildinfo",
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
@@ -10,8 +12,8 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
     "isolatedModules": true,
-    "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
 
@@ -20,7 +22,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+
+    /* Percorsi per gli alias */
+    "baseUrl": ".", // Importante: imposta la base per gli alias
+    "paths": {
+      "@/*": ["./src/*"] // Questo dice che '@/qualcosa' corrisponde a './src/qualcosa'
+    }
   },
-  "include": ["src"]
+  "include": ["src"] // Indica a TypeScript di includere i file nella cartella src
 }
