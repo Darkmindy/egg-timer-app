@@ -1,0 +1,27 @@
+{
+  "name": "Cooking Egg Master",
+  "short_name": "Egg Master",
+  "description": "Perfect egg timer for every recipe.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fdf7e4",
+  "theme_color": "#ffd97d",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
